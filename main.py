@@ -107,8 +107,6 @@ while running:
 
             else:
                 piece = board.piece_at(selected)
-
-                w
                 move = chess.Move(selected, square)
 
                 if move in board.legal_moves:
